@@ -1,5 +1,5 @@
 import './style.css'
-//import  './topics/01-basic-type.ts';
+import  './topics/02-object-interface.ts';
 
 const app = document.querySelector<HTMLDivElement>('#app');
 
