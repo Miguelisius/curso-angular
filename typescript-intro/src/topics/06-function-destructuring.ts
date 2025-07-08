@@ -1,5 +1,5 @@
 
-interface Product{
+export interface Product{
     description: string;
     price: number;
 
@@ -20,7 +20,7 @@ interface taxcalculationOptions{
     products: Product[],
 }
 
-function taxcalculator( options: taxcalculationOptions ):[number, number]{
+export function taxcalculator( options: taxcalculationOptions ):[number, number]{
     const {tx, products} = options;
     
     let total = 0;
@@ -49,5 +49,3 @@ console.log('Tax: ', result[1]);
 //desestructuracion
 
 
-
-export {};
