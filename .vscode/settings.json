@@ -1,5 +1,11 @@
 {
     "cSpell.words": [
         "taxcalculator"
-    ]
+    ],
+    "angular-schematics.schematicsDefaultOptions": {
+        "angular-*": {
+            "externalTemplate": true,
+            "skipStyle": true
+        }
+    }
 }
